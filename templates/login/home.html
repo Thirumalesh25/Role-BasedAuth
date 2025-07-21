@@ -1,0 +1,7 @@
+{% extends "login/base.html" %}
+
+{% block b2 %}
+<form method="GET" action="{% url 'login' %}">
+  <button class="btn btn-outline-primary" type="submit">Login</button>
+</form>
+{% endblock b2 %}
